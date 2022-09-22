@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/canasta"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_categoria"
+            android:icon="@drawable/estanteria"
+            android:title="@string/menu_categoria" />
+        <item
+            android:id="@+id/nav_ofertas"
+            android:icon="@drawable/oferta"
+            android:title="@string/menu_ofertas" />
+        <item
+            android:id="@+id/nav_carrito"
+            android:icon="@drawable/carrito"
+            android:title="@string/menu_carrito" />
+        <item
+            android:id="@+id/nav_mis_pedidos"
+            android:icon="@drawable/pedidos"
+            android:title="@string/menu_pedidos" />
+        <item
+            android:id="@+id/nav_opciones"
+            android:icon="@drawable/opciones"
+            android:title="@string/menu_opciones" />
+    </group>
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation3"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.aplicationtressoles.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_ofertas"
+        android:name="com.example.aplicationtressoles.ui.fragments.ofertas"
+        android:label="fragment_ofertas"
+        tools:layout="@layout/fragment_ofertas" />
+    <fragment
+        android:id="@+id/nav_categoria"
+        android:name="com.example.aplicationtressoles.ui.fragments.categoria"
+        android:label="fragment_categoria"
+        tools:layout="@layout/fragment_categoria" />
+    <fragment
+        android:id="@+id/nav_detalle_producto"
+        android:name="com.example.aplicationtressoles.ui.fragments.DetallesProductoFragment"
+        android:label="fragment_detalles_producto"
+        tools:layout="@layout/fragment_detalles_producto" />
+    <fragment
+        android:id="@+id/nav_carrito"
+        android:name="com.example.aplicationtressoles.layoutCodigo.carritoFragment"
+        android:label="fragment_carrito"
+        tools:layout="@layout/fragment_carrito" />
+    <fragment
+        android:id="@+id/nav_mis_pedidos"
+        android:name="com.example.aplicationtressoles.layoutCodigo.misPedidosFragment"
+        android:label="fragment_mis_pedidos"
+        tools:layout="@layout/fragment_mis_pedidos" />
+    <fragment
+        android:id="@+id/nav_opciones"
+        android:name="com.example.aplicationtressoles.layoutCodigo.OpcionesFragment"
+        android:label="fragment_opciones"
+        tools:layout="@layout/fragment_opciones" />
+</navigation>

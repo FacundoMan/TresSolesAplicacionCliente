@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:padding="6dp">
+
+            <ImageView
+                android:id="@+id/imagenProductoId"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="3dp"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"></ImageView>
+
+            <TextView
+                android:id="@+id/textViewTituloCarrito"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="82dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Titulo" />
+
+            <TextView
+                android:id="@+id/textViewFechaPedido"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="87dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="203dp"
+                android:text="Precio" />
+
+            <TextView
+                android:id="@+id/textViewOferta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="198dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="83dp"
+                android:text="Oferta"
+                android:textColor="#FF0202" />
+
+            <ImageButton
+                android:id="@+id/bttnAgregarProducto"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="310dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="13dp"
+                app:srcCompat="@android:drawable/ic_input_add"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/IdProductoLista"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="TextView" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+    
+
+
+    
